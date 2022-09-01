@@ -1,7 +1,6 @@
 /**
  * Finds the factor of a number.
  */
-
 export default function printFactors(x) {
   console.log('The factors of', x, 'are:');
 //  looping 
