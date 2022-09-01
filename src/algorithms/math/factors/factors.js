@@ -2,8 +2,9 @@
  * Finds the factor of a number.
  */
 export default function printFactors(x) {
-  console.log('The factors of', x, 'are:');
-//  looping 
+  console.log('The factors of the number', x, 'are:');
+
+  //  looping 
   for (let i = 1; i <= x; i++) {
     if (x % i === 0) {
       console.log(i);
