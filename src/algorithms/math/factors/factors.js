@@ -12,5 +12,5 @@ export default function printFactors(x) {
 }
 
 //  get the input from the user
-const num = prompt("Enter a positive integer: ");
+const num = prompt('Enter a positive integer: ');
 printFactors(num);
